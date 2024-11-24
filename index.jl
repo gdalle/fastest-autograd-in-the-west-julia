@@ -165,8 +165,8 @@ end
 data = benchmark_differentiation(
 	backends, [scen];
 	benchmark=:prepared,
-	benchmark_seconds=5,
-	benchmark_aggregation = mean
+	benchmark_seconds=30,
+	benchmark_aggregation = minimum
 )
 
 # ╔═╡ 4cbe6d55-cc27-49f3-8dbd-7208456592ec
